@@ -1,0 +1,67 @@
+/*! header start  */
+
+/*! header start  */
+.header .search-form {
+  position: absolute;
+  top: 115%;
+  right: 7%;
+  background-color: #fff;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  /* Çerçeveleri yuvarlatmak için eklendi */
+  box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 75%);
+  transform: scaleY(0);
+  border: none;
+  /* Çerçeveyi kaldırmak için eklendi */
+}
+
+.header .search-form.active {
+  transform: scaleY(1);
+}
+
+.header .search-form i {
+  cursor: pointer;
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  color: var(--black-color);
+}
+
+.header .search-form input {
+  width: 100%;
+  border: none;
+  /* Çerçeveyi kaldırmak için eklendi */
+  outline: none;
+  /* Çerçeveyi kaldırmak için eklendi */
+  border-radius: 1rem;
+  /* Input çerçevelerini yuvarlatmak için eklendi */
+}
+
+.header .logo img {
+  height: 7rem;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 2rem 7%;
+  border-radius: 30rem;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1.6rem;
+  color: var(--black-color);
+  border-bottom: 0.1rem solid transparent;
+  font-weight: bold;
+  border-radius: 5px;
+}
