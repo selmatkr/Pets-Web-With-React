@@ -1,0 +1,2 @@
+sanic==23.6.0  # Sanic framework sürümü
+asyncpg==0.27.0  # PostgreSQL bağlantısı için gerekli modül (örnek)
